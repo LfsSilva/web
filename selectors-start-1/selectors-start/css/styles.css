@@ -1,0 +1,59 @@
+body{
+    background-color: whitesmoke;
+    font-family: arial, helvetica, sans-serif;
+    padding: 10px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+div, header, footer, nav, main, aside{
+    overflow: auto;
+    border: 1px solid green;
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+.container .container{
+    border: 4px solid burlywood;
+    border-radius: 20px;
+}
+
+nav{
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+}
+
+.container p{
+    margin-left: 15px;
+}
+
+#p1{
+    font-weight: bold;
+    color:indigo;
+    padding: 30px;
+}
+
+#p2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    color: darkcyan;
+    padding-left: 15px;
+}
+
+#p3{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color:forestgreen;
+    padding-right: 10px;
+    text-decoration: dotted;
+}
